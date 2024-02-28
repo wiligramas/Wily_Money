@@ -22,5 +22,13 @@
   },
   "include": [
     "src"
+  ],
+  "json.schemas": [
+    {
+      "fileMatch": ["/package.json"],
+      "url": "https://json.schemastore.org/package",
+      "schema": true
+    }
   ]
-}
+
+ }
